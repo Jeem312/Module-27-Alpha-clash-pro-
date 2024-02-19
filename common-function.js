@@ -44,8 +44,15 @@ function typingChange(){
    const array = alphabet[index];
    return array;
 }
+function stop (){
+    gameOver()
+}
 function handleKeyupEvent(event){
     const keyCatcher = event.key;
+   
+   
+ 
+    // key player is expected to press
      const displayText = document.getElementById('Y');
   const text =  displayText.innerText ;
   const finalText = text.toLowerCase();
